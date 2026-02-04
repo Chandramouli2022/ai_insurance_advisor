@@ -49,22 +49,23 @@ They’ll get an email invite → once accepted, they can push code.
 Each collaborator does this:
 
 ```bash
-git clone https://github.com/your-username/repo-name.git
-cd repo-name
+git clone https://github.com/Chandramouli2022/ai_insurance_advisor.git
+cd ai_insurance_advisor
 ```
 
 Create a branch (BEST PRACTICE):
 
 ```bash
-git checkout -b feature-login
+git checkout -b alok-branch
+git checkout -b mouli-branch
 ```
 
 Make changes → then:
 
 ```bash
 git add .
-git commit -m "Add login feature"
-git push origin feature-login
+git commit -m "v001 - commit discription"
+git push origin alok-branch
 ```
 
 Then open a **Pull Request (PR)** on GitHub to merge into `main`.
